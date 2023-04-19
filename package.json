@@ -1,48 +1,34 @@
 {
-    "name": "intro-starwars-app",
-    "version": "1.0.0",
-    "description": "Desenvolvimento da Intro do Star Wars com deploy no Azure.",
-    "main": "app.js",
-    "scripts": {
-      "dev": "nodemon",
-      "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/glaucia86/intro-starwars-app.git"
-    },
-    "keywords": [
-      "nodejs",
-      "azure",
-      "javascript",
-      "express"
-    ],
-    "author": "Glaucia Lemos",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/glaucia86/intro-starwars-app/issues"
-    },
-    "homepage": "https://github.com/glaucia86/intro-starwars-app#readme",
-    "dependencies": {
-      "eslint-friendly-formatter": "^4.0.1",
-      "express": "^4.17.1",
-      "nodemon": "^2.0.2",
-      "prettier": "^1.19.1"
-    },
-    "devDependencies": {
-      "eslint": "^6.8.0",
-      "eslint-config-airbnb-base": "^14.0.0",
-      "eslint-plugin-import": "^2.19.1",
-      "husky": "^3.1.0"
-    },
-    "husky": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run lint"
-    },
-    "lint-staged": {
-      "*.js": [
-        "prettier --write",
-        "git add"
-      ]
-    }
+  "name": "projetostarwars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon",
+    "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix"
+  },
+  "author": "VanessaPV",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-friendly-formatter": "^4.0.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "husky": "^8.0.3"
+  },
+  "husky": {
+    "pre-commit": "lint-staged",
+    "pre-push": "npm run lint"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
   }
+}
