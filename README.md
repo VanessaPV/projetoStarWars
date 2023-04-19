@@ -7,7 +7,7 @@ Para executar o projeto usar os seguintes comandos:
 - `npm rum start` // executa o projeto
 
 Para acessar http://localhost:3000/
-Ref
+- Ref
 https://dev.to/azure/desenvolvendo-a-intro-do-star-wars-com-html-css-javascript-node-js-oae
 
 
